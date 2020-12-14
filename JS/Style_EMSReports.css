@@ -1,0 +1,71 @@
+﻿div.dt-buttons {
+    position: relative;
+    float: right!important;
+}
+
+#sideNavBox {
+  display: none !important;
+  float: left;
+ }
+#contentBox {
+  margin-left: 20px !important; /*moved content to left*/
+ }
+
+#suiteBar {
+  display: none !important;
+
+}
+
+#titleAreaRow{
+  display: none !important;
+}
+#RibbonContainer{
+  display: none !important;
+}
+#contentRow
+{
+ margin-top: -115px  !important;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+
+.mat-input {
+  position: relative;
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+th{
+  text-align: left !important;
+}
+#instrumentsTable_wrapper 
+{
+  
+}
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.attachmetsshow{
+
+	float:left;
+	
+	  background: #f3eeee; color: blue; outline: thin solid #48bfa9;
+	margin-right: 30px;
+    padding: 5px;
+	}
+
+.pageSubHeader
+{
+	background: #039be5;  
+}
+

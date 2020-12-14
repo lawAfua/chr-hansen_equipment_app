@@ -1,0 +1,178 @@
+﻿[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    display: none;
+}
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+label {
+	font-size:1em;
+	color:#000000;
+}
+#pref1,
+#pref2,
+#pref3,
+#pref4{
+	display:none;
+}
+input[type="checkbox"]{
+	opacity:1!important;
+	position:static!important;
+	pointer-events: auto!important;	
+	width:20px;
+	height:20px;	
+	border-radius:3px;
+}											
+.checks {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.card-image {
+	height: 200px;
+	overflow:hidden;
+	background:#000000;
+}																																						
+.card-image img {
+	opacity:0.5;
+}
+.card .card-action {
+	padding:1px 24px;
+}																																					
+.m3 label {
+	cursor:pointer;
+}
+
+.page-footer{
+	background-color: #27a69a!important;
+}
+
+#sideNavBox {
+  display: none !important;
+  float: left;
+ }
+#contentBox {
+  margin-left: 20px !important; /*moved content to left*/
+ }
+
+#suiteBar {
+  display: none !important;
+
+}
+
+#titleAreaRow{
+  display: none !important;
+}
+#RibbonContainer{
+  display: none !important;
+}
+#contentRow
+{
+ margin-top: -115px  !important;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+
+.mat-input {
+  position: relative;
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 98% !important;
+}
+i.material-icons.prefix {
+    padding-left: 8px!important;
+}
+
+.attachmetsshow{
+
+	float:left;
+	
+	  background: #f3eeee; color: blue; outline: thin solid #48bfa9;
+	margin-right: 30px;
+    padding: 5px;
+	}
+
+.pageSubHeader
+{
+	background: #039be5;    padding-top: 10px;
+}
+
+
+
+
+
+/*
+.wrap {
+  margin: 0 auto;
+}
+
+.mat-label {
+  display: block;
+  font-size: 16px;
+  transform: translateY(25px);
+  color: #e2e2e2;
+  transition: all 0.5s;
+}
+
+
+.mat-div {
+  padding: 30px 0 0 0;
+  position: relative;
+}
+
+.mat-div:after, .mat-div:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #e2e2e2; 
+  bottom: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.mat-div::after {
+  background-color: #8E8DBE;
+  transform: scaleX(0);
+}
+
+.is-active::after {
+  transform: scaleX(1);
+}
+
+.is-active .mat-label {
+  color: #8E8DBE;
+}
+
+.is-completed .mat-label {
+  font-size: 12px;
+  transform: translateY(0);
+}
+
+button {
+  background-color: #93E1D8;
+  border: none;
+  display: block;
+  margin: 35px auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}*/
+
